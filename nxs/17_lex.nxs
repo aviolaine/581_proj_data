@@ -1,0 +1,27 @@
+Begin data;
+        Dimensions ntax=21 nchar=10;
+        Format SYMBOLS= "0 1 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" missing=?;
+[all and ashes at back bad bark because belly big hair]
+Matrix
+Alban    BCECQCCBRA
+Hindi    FAIGGWEODP
+Russi    HHYJQABASJ
+Fongb    ZZZZZZZZZZ
+Bamba    ZZZZZZZZZZ
+Yorub    ZZZZZZZZZZ
+Akan     ZZZZZZZZZZ
+Kongo    ZZZZZZZZZZ
+Frenc    CFERHDBHEG	
+Papia    CFESHDBFEG
+Portu    CFESHDBFEG
+Catal    CFERCDBFUQ
+Itali    CFERHVBFEQ
+Haiti    CFERHDIHEG
+Tok_P    ABA1BB1KB1
+Srana    ABA1BB1KB1
+Engli    ABARBTGKBB
+Dutch    ABAVRBHABB
+Germa    ABATRBJMBB
+Norwe    AIAURQGABB
+Tolai    0000000000;
+end;

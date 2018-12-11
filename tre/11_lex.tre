@@ -1,0 +1,29 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Dec 11 00:21:36 2018]
+[!
+>Consensus of 105 trees
+>
+>Source of trees from which consensus(es) calculated...
+>Exhaustive search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 11 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        All characters are parsimony-informative
+>  Initial 'Maxtrees' setting = 872000 (will be auto-increased by 100)
+>  Zero-length branches not collapsed
+>  'MulTrees' option not in effect; only 1 tree will be saved
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Exhaustive search completed:
+>  Number of trees evaluated = 135135
+>  Score of best tree found = 19
+>  Score of worst tree found = 52
+>  Number of trees retained = 105
+>  Time used = 0.08 sec (CPU time = 0.07 sec)
+]
+	tree MajRule = [&U] (Fongb,Bamba,Yorub,Akan,((Frenc,Haiti)71.429,Portu,(Catal,Itali)71.429)100)0;
+end;

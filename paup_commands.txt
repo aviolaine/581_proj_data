@@ -1,0 +1,5 @@
+execute gene_3/lex.nxs
+set criterion=parsimony
+alltrees OR bandb OR hs
+contree all/strict=no majrule=yes treefile=gene_3/non_creole.tre
+

@@ -1,0 +1,5 @@
+./raxmlHPC -m BINCAT -p 12345 -# 20 -s 6.phy -n T1 #20 ML trees
+./raxmlHPC -m BINCAT -p 12345 -b 12345 -# autoMR -s 6.phy -n T2 #get bootstrap replicates, autoMR majority rule consensus decides num.
+./raxmlHPC -m BINCAT -p 12345 -f b -t RAxML_bestTree.T1 -z RAxML_bootstrap.T2 -n T3 #assign to branches!
+./raxmlHPC -m BINCAT -J MR -z RAxML_bootstrap.T2 -n T4
+

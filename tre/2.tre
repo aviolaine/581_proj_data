@@ -1,0 +1,35 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Mon Dec 10 16:18:06 2018]
+[!
+>Consensus of 1 trees
+>
+>Source of trees from which consensus(es) calculated...
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 38 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        3 characters are constant (proportion = 0.0789474)
+>        1 variable character is parsimony-uninformative
+>        Number of parsimony-informative characters = 34
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: simple (reference taxon = Alban)
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 872000 (will be auto-increased by 100)
+>  Zero-length branches not collapsed
+>  'MulTrees' option not in effect; only 1 tree will be saved
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search completed
+>  Total number of rearrangements tried = 1842
+>  Score of best tree(s) found = 105
+>  Number of trees retained = 1
+>  Time used = 0.01 sec (CPU time = 0.00 sec)
+]
+	tree MajRule = [&U] (Alban,(((((Hindi,Bamba)100,Russi)100,((Engli,Norwe)100,(Dutch,Germa)100)100)100,(Frenc,(((Yorub,(Akan,Fongb)100)100,Tolai)100,Haiti)100)100)100,(Portu,(Catal,Itali)100)100)100,Kongo)0;
+end;

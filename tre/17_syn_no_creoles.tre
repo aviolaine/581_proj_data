@@ -1,0 +1,31 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Dec 11 04:18:15 2018]
+[!
+>Consensus of 93 trees
+>
+>Source of trees from which consensus(es) calculated...
+>Branch-and-bound search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 30 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        2 characters are constant (proportion = 0.0666667)
+>        1 variable character is parsimony-uninformative
+>        Number of parsimony-informative characters = 27
+>  Initial upper bound: unknown (compute heuristically)
+>  Addition sequence: furthest
+>  Initial 'Maxtrees' setting = 929000 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Branch-and-bound search completed:
+>  Score of best tree found = 90
+>  Number of trees retained = 93
+>  Time used = 00:03:28 (CPU time = 00:03:28.6)
+]
+	tree MajRule = [&U] (Alban,(((Hindi,Bamba)100,(Tok_P,((Papia,(Yorub,Srana)100,Haiti)90.323,(Fongb,Akan)100)90.323,Tolai)100)90.323,(((Russi,(Portu,(Catal,Itali)100)100)54.839,(Engli,(Dutch,Germa)100,Norwe)93.548)67.742,Frenc)100)100,Kongo)0;
+end;
